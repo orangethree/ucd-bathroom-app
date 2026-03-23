@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgis/postgis:16-3.5
+    platform: linux/amd64
+    environment:
+      POSTGRES_DB: ucd_bathrooms
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build: .
+    ports:
+      - "5001:5000"
+    volumes:
+      - .:/app
+    environment:
+      FLASK_APP: wsgi.py
+      FLASK_DEBUG: "1"
+      DATABASE_URL: postgresql://postgres:postgres@db:5432/ucd_bathrooms
+      JWT_SECRET_KEY: dev-secret-change-me
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-placeholder}
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

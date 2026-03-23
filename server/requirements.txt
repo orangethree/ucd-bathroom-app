@@ -1,0 +1,29 @@
+# Core
+Flask==3.1.*
+gunicorn==23.*
+
+# Database
+Flask-SQLAlchemy==3.1.*
+SQLAlchemy==2.0.*
+psycopg2-binary==2.9.*
+GeoAlchemy2==0.15.*
+
+# Migrations
+Flask-Migrate==4.0.*
+
+# Auth
+google-auth==2.38.*
+PyJWT==2.10.*
+
+# Serialization / Validation
+marshmallow==3.23.*
+
+# CORS
+Flask-CORS==5.0.*
+
+# Testing
+pytest==8.*
+pytest-cov==6.*
+
+# Dev utilities
+python-dotenv==1.0.*

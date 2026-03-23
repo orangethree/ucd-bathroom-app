@@ -1,0 +1,22 @@
+[
+  {"building_name": "Shields Library", "floor_level": "1st Floor", "lat": 38.5395, "lng": -121.7490, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Shields Library", "floor_level": "1st Floor", "lat": 38.5395, "lng": -121.7490, "gender_type": "Women", "is_accessible": true},
+  {"building_name": "Shields Library", "floor_level": "Basement", "lat": 38.5395, "lng": -121.7490, "gender_type": "Gender-Neutral", "is_accessible": false},
+  {"building_name": "Memorial Union", "floor_level": "1st Floor", "lat": 38.5421, "lng": -121.7494, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Memorial Union", "floor_level": "1st Floor", "lat": 38.5421, "lng": -121.7494, "gender_type": "Women", "is_accessible": true},
+  {"building_name": "Memorial Union", "floor_level": "2nd Floor", "lat": 38.5421, "lng": -121.7494, "gender_type": "Gender-Neutral", "is_accessible": true},
+  {"building_name": "Kemper Hall", "floor_level": "1st Floor", "lat": 38.5367, "lng": -121.7529, "gender_type": "Gender-Neutral", "is_accessible": true},
+  {"building_name": "Kemper Hall", "floor_level": "2nd Floor", "lat": 38.5367, "lng": -121.7529, "gender_type": "Men", "is_accessible": false},
+  {"building_name": "Kemper Hall", "floor_level": "2nd Floor", "lat": 38.5367, "lng": -121.7529, "gender_type": "Women", "is_accessible": false},
+  {"building_name": "Wellman Hall", "floor_level": "1st Floor", "lat": 38.5411, "lng": -121.7513, "gender_type": "Women", "is_accessible": true},
+  {"building_name": "Wellman Hall", "floor_level": "1st Floor", "lat": 38.5411, "lng": -121.7513, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Olson Hall", "floor_level": "1st Floor", "lat": 38.5430, "lng": -121.7482, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Olson Hall", "floor_level": "1st Floor", "lat": 38.5430, "lng": -121.7482, "gender_type": "Women", "is_accessible": true},
+  {"building_name": "Sciences Lecture Hall", "floor_level": "1st Floor", "lat": 38.5385, "lng": -121.7510, "gender_type": "Gender-Neutral", "is_accessible": true},
+  {"building_name": "Silo", "floor_level": "1st Floor", "lat": 38.5387, "lng": -121.7528, "gender_type": "Gender-Neutral", "is_accessible": true},
+  {"building_name": "Student Community Center", "floor_level": "1st Floor", "lat": 38.5428, "lng": -121.7500, "gender_type": "Gender-Neutral", "is_accessible": true},
+  {"building_name": "Bainer Hall", "floor_level": "1st Floor", "lat": 38.5361, "lng": -121.7520, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Bainer Hall", "floor_level": "1st Floor", "lat": 38.5361, "lng": -121.7520, "gender_type": "Women", "is_accessible": true},
+  {"building_name": "Giedt Hall", "floor_level": "1st Floor", "lat": 38.5358, "lng": -121.7508, "gender_type": "Men", "is_accessible": true},
+  {"building_name": "Giedt Hall", "floor_level": "1st Floor", "lat": 38.5358, "lng": -121.7508, "gender_type": "Women", "is_accessible": true}
+]
