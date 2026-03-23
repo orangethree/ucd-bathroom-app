@@ -13,6 +13,7 @@ Flask-Migrate==4.0.*
 
 # Auth
 google-auth==2.38.*
+requests==2.32.*
 PyJWT==2.10.*
 
 # Serialization / Validation
